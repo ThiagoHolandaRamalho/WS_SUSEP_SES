@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../../funcoes/">
+        <link rel="prev" href="../schema_SesDadosCap/">
       
       
-        <link rel="next" href="../schema_SesRamos/">
+        <link rel="next" href="../schema_SesValoresMovRamos/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Ses_cias.csv - Bases estatísticas SES</title>
+        <title>Ses_Cap_UF.csv - Bases estatísticas SES</title>
       
     
     
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#src.schemas.SchemaSesCias" class="md-skip">
+        <a href="#src.schemas.SchemaSesCapUf" class="md-skip">
           Skip to content
         </a>
       
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ses_cias.csv
+              Ses_Cap_UF.csv
             
           </span>
         </div>
@@ -275,7 +275,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../schema_SesCias/" class="md-tabs__link">
           
   
     
@@ -495,29 +495,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Ses_cias.csv
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../schema_SesCias/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -527,33 +508,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#src.schemas.SchemaSesCias" class="md-nav__link">
-    <span class="md-ellipsis">
-      SchemaSesCias
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -717,10 +671,29 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../schema_SesCapUf/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ses_Cap_UF.csv
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -730,6 +703,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#src.schemas.SchemaSesCapUf" class="md-nav__link">
+    <span class="md-ellipsis">
+      SchemaSesCapUf
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -819,9 +819,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#src.schemas.SchemaSesCias" class="md-nav__link">
+  <a href="#src.schemas.SchemaSesCapUf" class="md-nav__link">
     <span class="md-ellipsis">
-      SchemaSesCias
+      SchemaSesCapUf
     </span>
   </a>
   
@@ -843,19 +843,19 @@
 
 
 
-  <h1>Ses_cias.csv</h1>
+  <h1>Ses_Cap_UF.csv</h1>
 
 <div class="doc doc-object doc-class">
 
 
 
-<a id="src.schemas.SchemaSesCias"></a>
+<a id="src.schemas.SchemaSesCapUf"></a>
     <div class="doc doc-contents first">
             <p class="doc doc-class-bases">
               Bases: <code><span title="pandera.DataFrameModel">DataFrameModel</span></code></p>
 
 
-        <p>Esquema de validação para o arquivo Ses_cias.csv</p>
+        <p>Esquema de validação para o arquivo ses_cap_uf.csv</p>
 <p>Esta classe valida os dados do arquivo, garantindo a consistência 
 dos tipos e a conformidade com as regras definidas.</p>
 
@@ -871,24 +871,101 @@ dos tipos e a conformidade com as regras definidas.</p>
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code><span title="src.schemas.SchemaSesCias.Coenti">Coenti</span></code></td>
+            <td><code><span title="src.schemas.SchemaSesCapUf.COENTI">COENTI</span></code></td>
             <td>
-                  <code><span title="pandera.typing.Series">Series</span>[<span title="str">str</span>]</code>
+                  <code>      Series[pd.Int64Dtype] </code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>pa.Field(nullable= True,description="Código da seguradora") </p>
+                <p>pa.Field(nullable=True,description='Código da Empresa')</p>
               </div>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code><span title="src.schemas.SchemaSesCias.Noenti">Noenti</span></code></td>
+            <td><code><span title="src.schemas.SchemaSesCapUf.DAMESANO">DAMESANO</span></code></td>
             <td>
-                  <code><span title="pandera.typing.Series">Series</span>[<span title="str">str</span>]</code>
+                  <code>    Series[pd.Int64Dtype] </code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>pa.Field(nullable= True, description= "Nome da seguradora")</p>
+                <p>pa.Field(nullable=True,description='Ano e mês da informação')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.UF">UF</span></code></td>
+            <td>
+                  <code>          Series[str]   </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Unidade Federativa')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.PREMIO">PREMIO</span></code></td>
+            <td>
+                  <code>      Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Prêmios (R$)')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.RESGPAGO">RESGPAGO</span></code></td>
+            <td>
+                  <code>    Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Resgates Pagos (R$)')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.SORTPAGO">SORTPAGO</span></code></td>
+            <td>
+                  <code>    Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Sorteios Pagos (R$)')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.NUMPARTIC">NUMPARTIC</span></code></td>
+            <td>
+                  <code>   Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Média de Participantes no Período')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.RESGATANTES">RESGATANTES</span></code></td>
+            <td>
+                  <code> Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Resgatantes')</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td><code><span title="src.schemas.SchemaSesCapUf.SORTEIOS">SORTEIOS</span></code></td>
+            <td>
+                  <code>    Series[float] </code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field(nullable=True,description='Sorteios')</p>
               </div>
             </td>
           </tr>
@@ -902,39 +979,67 @@ dos tipos e a conformidade com as regras definidas.</p>
 
               <details class="quote">
                 <summary>Source code in <code>src\schemas.py</code></summary>
-                <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span>
-<span class="normal"><a href="#__codelineno-0-12">12</a></span>
-<span class="normal"><a href="#__codelineno-0-13">13</a></span>
-<span class="normal"><a href="#__codelineno-0-14">14</a></span>
-<span class="normal"><a href="#__codelineno-0-15">15</a></span>
-<span class="normal"><a href="#__codelineno-0-16">16</a></span>
-<span class="normal"><a href="#__codelineno-0-17">17</a></span>
-<span class="normal"><a href="#__codelineno-0-18">18</a></span>
-<span class="normal"><a href="#__codelineno-0-19">19</a></span>
-<span class="normal"><a href="#__codelineno-0-20">20</a></span>
-<span class="normal"><a href="#__codelineno-0-21">21</a></span>
-<span class="normal"><a href="#__codelineno-0-22">22</a></span>
-<span class="normal"><a href="#__codelineno-0-23">23</a></span>
-<span class="normal"><a href="#__codelineno-0-24">24</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="k">class</span><span class="w"> </span><span class="nc">SchemaSesCias</span><span class="p">(</span><span class="n">pa</span><span class="o">.</span><span class="n">DataFrameModel</span><span class="p">):</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="sd">    Esquema de validação para o arquivo Ses_cias.csv</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="sd">    Esta classe valida os dados do arquivo, garantindo a consistência </span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="sd">    dos tipos e a conformidade com as regras definidas.</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="sd">    Attributes:</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="sd">        Coenti Series[str] : pa.Field(nullable= True,description=&quot;Código da seguradora&quot;) </span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="sd">        Noenti Series[str] : pa.Field(nullable= True, description= &quot;Nome da seguradora&quot;)</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="sd">    &quot;&quot;&quot;</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a>    <span class="n">Coenti</span> <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span> <span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;Código da seguradora&quot;</span><span class="p">)</span> 
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a>    <span class="n">Noenti</span> <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span> <span class="s2">&quot;Nome da seguradora&quot;</span><span class="p">)</span>
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Config</span><span class="p">:</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a>        <span class="n">coerce</span> <span class="o">=</span> <span class="kc">True</span>
+                <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-248">248</a></span>
+<span class="normal"><a href="#__codelineno-0-249">249</a></span>
+<span class="normal"><a href="#__codelineno-0-250">250</a></span>
+<span class="normal"><a href="#__codelineno-0-251">251</a></span>
+<span class="normal"><a href="#__codelineno-0-252">252</a></span>
+<span class="normal"><a href="#__codelineno-0-253">253</a></span>
+<span class="normal"><a href="#__codelineno-0-254">254</a></span>
+<span class="normal"><a href="#__codelineno-0-255">255</a></span>
+<span class="normal"><a href="#__codelineno-0-256">256</a></span>
+<span class="normal"><a href="#__codelineno-0-257">257</a></span>
+<span class="normal"><a href="#__codelineno-0-258">258</a></span>
+<span class="normal"><a href="#__codelineno-0-259">259</a></span>
+<span class="normal"><a href="#__codelineno-0-260">260</a></span>
+<span class="normal"><a href="#__codelineno-0-261">261</a></span>
+<span class="normal"><a href="#__codelineno-0-262">262</a></span>
+<span class="normal"><a href="#__codelineno-0-263">263</a></span>
+<span class="normal"><a href="#__codelineno-0-264">264</a></span>
+<span class="normal"><a href="#__codelineno-0-265">265</a></span>
+<span class="normal"><a href="#__codelineno-0-266">266</a></span>
+<span class="normal"><a href="#__codelineno-0-267">267</a></span>
+<span class="normal"><a href="#__codelineno-0-268">268</a></span>
+<span class="normal"><a href="#__codelineno-0-269">269</a></span>
+<span class="normal"><a href="#__codelineno-0-270">270</a></span>
+<span class="normal"><a href="#__codelineno-0-271">271</a></span>
+<span class="normal"><a href="#__codelineno-0-272">272</a></span>
+<span class="normal"><a href="#__codelineno-0-273">273</a></span>
+<span class="normal"><a href="#__codelineno-0-274">274</a></span>
+<span class="normal"><a href="#__codelineno-0-275">275</a></span>
+<span class="normal"><a href="#__codelineno-0-276">276</a></span>
+<span class="normal"><a href="#__codelineno-0-277">277</a></span>
+<span class="normal"><a href="#__codelineno-0-278">278</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-248"><a id="__codelineno-0-248" name="__codelineno-0-248"></a><span class="k">class</span><span class="w"> </span><span class="nc">SchemaSesCapUf</span><span class="p">(</span><span class="n">pa</span><span class="o">.</span><span class="n">DataFrameModel</span><span class="p">):</span>
+</span><span id="__span-0-249"><a id="__codelineno-0-249" name="__codelineno-0-249"></a><span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+</span><span id="__span-0-250"><a id="__codelineno-0-250" name="__codelineno-0-250"></a><span class="sd">    Esquema de validação para o arquivo ses_cap_uf.csv</span>
+</span><span id="__span-0-251"><a id="__codelineno-0-251" name="__codelineno-0-251"></a>
+</span><span id="__span-0-252"><a id="__codelineno-0-252" name="__codelineno-0-252"></a><span class="sd">    Esta classe valida os dados do arquivo, garantindo a consistência </span>
+</span><span id="__span-0-253"><a id="__codelineno-0-253" name="__codelineno-0-253"></a><span class="sd">    dos tipos e a conformidade com as regras definidas.</span>
+</span><span id="__span-0-254"><a id="__codelineno-0-254" name="__codelineno-0-254"></a>
+</span><span id="__span-0-255"><a id="__codelineno-0-255" name="__codelineno-0-255"></a><span class="sd">    Attributes:</span>
+</span><span id="__span-0-256"><a id="__codelineno-0-256" name="__codelineno-0-256"></a><span class="sd">        COENTI       Series[pd.Int64Dtype] : pa.Field(nullable=True,description=&#39;Código da Empresa&#39;)</span>
+</span><span id="__span-0-257"><a id="__codelineno-0-257" name="__codelineno-0-257"></a><span class="sd">        DAMESANO     Series[pd.Int64Dtype] : pa.Field(nullable=True,description=&#39;Ano e mês da informação&#39;)</span>
+</span><span id="__span-0-258"><a id="__codelineno-0-258" name="__codelineno-0-258"></a><span class="sd">        UF           Series[str]   : pa.Field(nullable=True,description=&#39;Unidade Federativa&#39;)</span>
+</span><span id="__span-0-259"><a id="__codelineno-0-259" name="__codelineno-0-259"></a><span class="sd">        PREMIO       Series[float] : pa.Field(nullable=True,description=&#39;Prêmios (R$)&#39;)</span>
+</span><span id="__span-0-260"><a id="__codelineno-0-260" name="__codelineno-0-260"></a><span class="sd">        RESGPAGO     Series[float] : pa.Field(nullable=True,description=&#39;Resgates Pagos (R$)&#39;)</span>
+</span><span id="__span-0-261"><a id="__codelineno-0-261" name="__codelineno-0-261"></a><span class="sd">        SORTPAGO     Series[float] : pa.Field(nullable=True,description=&#39;Sorteios Pagos (R$)&#39;)</span>
+</span><span id="__span-0-262"><a id="__codelineno-0-262" name="__codelineno-0-262"></a><span class="sd">        NUMPARTIC    Series[float] : pa.Field(nullable=True,description=&#39;Média de Participantes no Período&#39;)</span>
+</span><span id="__span-0-263"><a id="__codelineno-0-263" name="__codelineno-0-263"></a><span class="sd">        RESGATANTES  Series[float] : pa.Field(nullable=True,description=&#39;Resgatantes&#39;)</span>
+</span><span id="__span-0-264"><a id="__codelineno-0-264" name="__codelineno-0-264"></a><span class="sd">        SORTEIOS     Series[float] : pa.Field(nullable=True,description=&#39;Sorteios&#39;)</span>
+</span><span id="__span-0-265"><a id="__codelineno-0-265" name="__codelineno-0-265"></a>
+</span><span id="__span-0-266"><a id="__codelineno-0-266" name="__codelineno-0-266"></a><span class="sd">    &#39;&#39;&#39;</span>
+</span><span id="__span-0-267"><a id="__codelineno-0-267" name="__codelineno-0-267"></a>    <span class="n">COENTI</span>         <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">Int64Dtype</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Código da Empresa&#39;</span><span class="p">)</span>
+</span><span id="__span-0-268"><a id="__codelineno-0-268" name="__codelineno-0-268"></a>    <span class="n">DAMESANO</span>       <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">Int64Dtype</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Ano e mês da informação&#39;</span><span class="p">)</span>
+</span><span id="__span-0-269"><a id="__codelineno-0-269" name="__codelineno-0-269"></a>    <span class="n">UF</span>             <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Unidade Federativa&#39;</span><span class="p">)</span>
+</span><span id="__span-0-270"><a id="__codelineno-0-270" name="__codelineno-0-270"></a>    <span class="n">PREMIO</span>         <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Prêmios (R$)&#39;</span><span class="p">)</span>
+</span><span id="__span-0-271"><a id="__codelineno-0-271" name="__codelineno-0-271"></a>    <span class="n">RESGPAGO</span>       <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Resgates Pagos (R$)&#39;</span><span class="p">)</span>
+</span><span id="__span-0-272"><a id="__codelineno-0-272" name="__codelineno-0-272"></a>    <span class="n">SORTPAGO</span>       <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Sorteios Pagos (R$)&#39;</span><span class="p">)</span>
+</span><span id="__span-0-273"><a id="__codelineno-0-273" name="__codelineno-0-273"></a>    <span class="n">NUMPARTIC</span>      <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Média de Participantes no Período&#39;</span><span class="p">)</span>
+</span><span id="__span-0-274"><a id="__codelineno-0-274" name="__codelineno-0-274"></a>    <span class="n">RESGATANTES</span>    <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Resgatantes&#39;</span><span class="p">)</span>
+</span><span id="__span-0-275"><a id="__codelineno-0-275" name="__codelineno-0-275"></a>    <span class="n">SORTEIOS</span>       <span class="p">:</span> <span class="n">Series</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="n">pa</span><span class="o">.</span><span class="n">Field</span><span class="p">(</span><span class="n">nullable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">description</span><span class="o">=</span><span class="s1">&#39;Sorteios&#39;</span><span class="p">)</span>
+</span><span id="__span-0-276"><a id="__codelineno-0-276" name="__codelineno-0-276"></a>
+</span><span id="__span-0-277"><a id="__codelineno-0-277" name="__codelineno-0-277"></a>    <span class="k">class</span><span class="w"> </span><span class="nc">Config</span><span class="p">:</span>
+</span><span id="__span-0-278"><a id="__codelineno-0-278" name="__codelineno-0-278"></a>        <span class="n">coerce</span> <span class="o">=</span> <span class="kc">True</span>
 </span></code></pre></div></td></tr></table></div>
               </details>
 
@@ -994,7 +1099,7 @@ dos tipos e a conformidade com as regras definidas.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../funcoes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Funcões">
+          <a href="../schema_SesDadosCap/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ses_Dados_Cap.csv">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1004,20 +1109,20 @@ dos tipos e a conformidade com as regras definidas.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Funcões
+                Ses_Dados_Cap.csv
               </div>
             </div>
           </a>
         
         
           
-          <a href="../schema_SesRamos/" class="md-footer__link md-footer__link--next" aria-label="Next: Ses_ramos.csv">
+          <a href="../schema_SesValoresMovRamos/" class="md-footer__link md-footer__link--next" aria-label="Next: Ses_ValoresMovRamos.csv">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Ses_ramos.csv
+                Ses_ValoresMovRamos.csv
               </div>
             </div>
             <div class="md-footer__button md-icon">
