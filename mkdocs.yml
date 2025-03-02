@@ -5,18 +5,29 @@ site_description: >-
 
 theme:
   name: material
+  logo: assets/logo_susep.png
 
   palette:
     - scheme: default
-      primary: black
+      primary: black      
       toggle:
         icon: material/weather-sunny
-        name: Light mode
+        name: Modo Claro
+
     - scheme: slate
       primary: black
       toggle:
         icon: material/weather-night
-        name: Black mode
+        name: Modo dark
+    
+    - scheme: solarized
+      primary_dark: green
+      accent : blue
+      toggle:
+        icon: material/weather-night-partly-cloudy
+        name: Light mode
+    
+     
 
   font:
     text: Roboto
@@ -32,9 +43,9 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
+   # - content.code.select
+   # - content.footnote.tooltips
+   # - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
@@ -46,7 +57,7 @@ theme:
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -136,9 +147,17 @@ watch:
 
 nav:
   - Home: index.md
+  - Funcões: funcoes.md
   - Contratos de dados:
-    - Ses_cias.csv: schemas/schema_SesCias.md
-    - Ses_ramos.csv: schemas/schema_SesRamos.md
-    - Ses_gruposramos.csv: schemas/schema_SesGrupoRamo.md
-    - Ses_seguros.csv: schemas/schema_SesSeguros.md
-    - Ses_uf2.csv: schemas/schema_SesUf2.md
+    - Arquivos:
+      - Ses_cias.csv: schemas/schema_SesCias.md
+      - Ses_ramos.csv: schemas/schema_SesRamos.md
+      - Ses_gruposramos.csv: schemas/schema_SesGrupoRamo.md
+      - Ses_seguros.csv: schemas/schema_SesSeguros.md
+      - Ses_uf2.csv: schemas/schema_SesUf2.md
+      - Ses_campos.csv: schemas/schema_SesCampos.md
+      - Ses_Balanco.csv: schemas/schema_SesBalanco.md
+      - Ses_Dados_Cap.csv: schemas/schema_SesDadosCap.md
+      - Ses_Cap_UF.csv: schemas/schema_SesCapUf.md
+      - Ses_ValoresMovRamos.csv: schemas/schema_SesValoresMovRamos.md
+      - Ses_Valoresresmovgrupos.csv: schemas/schema_SesMovGrupos.md
