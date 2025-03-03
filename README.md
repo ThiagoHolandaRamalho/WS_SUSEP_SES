@@ -4,5 +4,6 @@
  
 [link da documentação](https://thiagoholandaramalho.github.io/WS_SUSEP_SES/)
 
-![image](https://github.com/user-attachments/assets/05a2892e-9bb1-4e0b-b1d4-e156145e4359)
+![image](https://github.com/user-attachments/assets/88679a9a-6586-4ca3-8b76-2b35d4ed7c69)
+
 
