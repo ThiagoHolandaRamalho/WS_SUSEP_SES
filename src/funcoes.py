@@ -79,11 +79,10 @@ def buscar_arquivo_na_susep(path:Path ,qde_max_segundos_download:int = 600) -> b
     """
 
     logger.info('Iniciando processo de Busca na Susep')
-
+    check_download = False
+    qde_max_segundos = qde_max_segundos_download
+    criar_pasta(path)
     try:
-        check_download = False
-        qde_max_segundos = qde_max_segundos_download
-        criar_pasta(path)
         options = webdriver.ChromeOptions()
         options.add_experimental_option("prefs", {
             "download.default_directory": path,
@@ -97,6 +96,7 @@ def buscar_arquivo_na_susep(path:Path ,qde_max_segundos_download:int = 600) -> b
         driver = webdriver.Chrome(service=servico,options=options)
     except Exception as e:
          logger.error(f'Erro na inicialização do selenium : {e}')
+         return check_download
          
     driver.get(r'https://www2.susep.gov.br/menuestatistica/ses/principal.aspx')
 

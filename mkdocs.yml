@@ -2,6 +2,7 @@ site_name: Bases estatísticas SES
 site_author: Thiago Holanda
 site_description: >-
   Documentação do projeto
+  
 
 theme:
   name: material
@@ -160,4 +161,5 @@ nav:
       - Ses_Dados_Cap.csv: schemas/schema_SesDadosCap.md
       - Ses_Cap_UF.csv: schemas/schema_SesCapUf.md
       - Ses_ValoresMovRamos.csv: schemas/schema_SesValoresMovRamos.md
-      - Ses_Valoresresmovgrupos.csv: schemas/schema_SesMovGrupos.md
+      - Ses_Valoresresmovgrupos.csv: schemas/schema_SesValoresResMovMovGrupos.md
+  - Contato : contato.md

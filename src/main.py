@@ -2,7 +2,7 @@ import os
 from funcoes import *
 
 
-PATH_BASE = r"C:\Users\thiag\Documents\BASE_SUSEP_TESTE_22"
+PATH_BASE = r"C:\BASE_SUSEP"
 PATH_PASTA_ARQUIVOS = os.path.join(PATH_BASE,"Download_arquivo")
 PATH_PASTA_ARQUIVOS_CSV = os.path.join(PATH_BASE,"Arquivos_CSV")
 QDE_MAX_SEGUNDOS_DOWNLOAD = 600 
