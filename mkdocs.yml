@@ -162,4 +162,5 @@ nav:
       - Ses_Cap_UF.csv: schemas/schema_SesCapUf.md
       - Ses_ValoresMovRamos.csv: schemas/schema_SesValoresMovRamos.md
       - Ses_Valoresresmovgrupos.csv: schemas/schema_SesValoresResMovMovGrupos.md
+  - Relatório Susep (DataViz) : DataViz/Realatorio_SES.md
   - Contato : contato.md
