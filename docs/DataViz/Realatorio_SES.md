@@ -3,6 +3,8 @@
 
 ## Segue relação de vídeos com o overview de cada página
 
+Link do relatório:[link](https://app.powerbi.com/view?r=eyJrIjoiMjY1ZTJiN2MtZjc5Yi00MTBhLWE1NTEtNjczMjI5OWQ5OTA2IiwidCI6ImIwMTcxNGFkLTYzZmItNGY5MS1iYzJhLWNkZWRmNzE0OGI2ZCJ9)
+
 [Overview](https://youtu.be/Tfe_c8QRQRI?si=eER5YuVt8kvrb54O)
 
 [Prêmios e Sinistros](https://youtu.be/G86z9AtKmtc?si=_zaSHEAMFb5Mh1ZT)
