@@ -90,10 +90,20 @@ def buscar_arquivo_na_susep(path:Path ,qde_max_segundos_download:int = 600) -> b
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True
         })
-        options.add_argument("--headless")
+        #options.add_argument("--headless")
 
+        
         servico = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=servico,options=options)
+
+        ## Caminho para o ChromeDriver local
+        #chrome_driver_path = r'C:\PROJETOS_PYTHON\WS_SES_SUSEP\src\chromedriver.exe'
+        ## Criar um serviço com o ChromeDriver
+        #service = Service(chrome_driver_path)
+        #driver = webdriver.Chrome(service=service,options=options)
+
+
+        
     except Exception as e:
          logger.error(f'Erro na inicialização do selenium : {e}')
          return check_download
@@ -168,7 +178,7 @@ def descompactar_zip(path_origem,check_sucesso:bool = False) -> bool:
         bool: Retorna `True` se a descompactação for concluída com sucesso, caso contrário, 
             retorna `False`.
     """
-
+    check_zip = False
     
     try:
         if check_sucesso:
@@ -186,8 +196,8 @@ def descompactar_zip(path_origem,check_sucesso:bool = False) -> bool:
 
                     with zipfile.ZipFile(caminho_completo, 'r') as zip_ref:
                         zip_ref.extractall(path_origem)
-        check_zip =True
-        logger.info('Descompactação efetuada')
+            check_zip =True
+            logger.info('Descompactação efetuada')
     except Exception as e:
         check_zip = False
         logger.error(f'Erro na Descompactação {e}')
@@ -251,7 +261,9 @@ def validar_schemas_obrigatorios(path:Path,check_sucesso_zip:bool = False):
             check_validacao = False
             logger.error(f'Erro na validação dos Schemas {e}')
             return  check_validacao
-        
+    else:
+       check_validacao = False
+       return check_validacao
 
 def mover_arquivos(path_origem,path_destino,check_validacao):
     if check_validacao:
